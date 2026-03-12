@@ -1,27 +1,30 @@
 # NEXTBUY
 
-**Projet EPITECH – Analyse de données courses**
-
-Analyse de 13,6 millions de commandes pour extraire des insights business.
+**Projet EPITECH – Analyse de plus de 11 millions de commandes**
 
 ---
 
-### Répartition du travail
-- **Mon pote** : Nettoyage + fusion des 5 CSV + modèles ML (Logistic Regression + Random Forest)
-- **Moi** : Les 8 graphiques + EDA
+### Répartition
+- Hector : nettoyage + fusion + modèles ML  
+- Rayan : les 8 graphiques + Analyse des données
 
 ---
 
-### Résultats principaux
-- Top 10 produits : Bananes, lait, œufs…
-- Légumes bio : XX% des ventes
-- Ventes semaine vs weekend : **9,2M vs 4,5M**
-- Meilleur modèle : Logistic Regression (70% accuracy)
+### Résultats clés des 8 graphiques
+
+1. **Top 10 produits** → Bananes dominent largement  
+2. **Légumes bio** → XX% des légumes sont bio  
+3. **Pics de commandes** → Surtout le Lundi et Dimanche entre 8h et 17h  
+4. **Semaine vs Weekend** → 9~ millions en semaine vs 4~ millions le weekend  
+5. **Taux de réachat** → Le départements **Laiterie** a les taux les plus élevés
+6. **Fréquence clients** → La plupart commandent entre 5 et 15 fois  
+7. **Taille panier** → Plus gros le dimanche  
+8. **Commandes par département** → Produits laiterie encore en tête
 
 ---
 
-### Lancement rapide
-```bash
+### Lancement
+
 source venv/bin/activate
 pip install -r requirements.txt
-jupyter notebook
+run all dans notebook.ipynb
